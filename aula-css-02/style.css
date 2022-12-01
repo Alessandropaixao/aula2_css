@@ -1,0 +1,21 @@
+.home_header {
+  background-color: rgb(217, 255, 127);
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.home_header_navbar {
+  display: flex;
+  gap: 16px;
+}
+
+.home_header_navbar_item {
+  list-style: none;
+  color: blue;
+}
+
+.home_header_navbar_item:hover {
+  scale: 2;
+  color: azure;
+}
