@@ -1,5 +1,5 @@
 .home_header {
-  background-color: rgb(217, 255, 127);
+  background-color: rgb(15, 95, 119);
   display: flex;
   justify-content: space-between;
   padding: 40px;
@@ -7,7 +7,7 @@
 
 .home_header_navbar {
   display: flex;
-  gap: 16px;
+  gap: 30px;
 }
 
 .home_header_navbar_item {
@@ -15,7 +15,8 @@
   color: blue;
 }
 
-.home_header_navbar_item:hover {
-  scale: 2;
-  color: azure;
+.home_header_navbar_item:hover, a:hover {
+  scale: 3;
+  color: rgb(32, 65, 5);
+  transition: all 0.4s ease-in-out;
 }
